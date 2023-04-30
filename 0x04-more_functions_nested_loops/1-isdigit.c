@@ -1,15 +1,9 @@
-/*
- * File: 1-isdigit.c
- * Auth: Brennan D Baraban
- */
-
-#include "holberton.h"
-
 /**
- * _isdigit - Checks for a digit (0-9).
- * @c: The number to be checked.
+ * _isdigit - determine if digit
  *
- * Return: 1 if the number is a digit, 0 otherwise.
+ * @c: character to determine
+ *
+ * Return: gives boolean
  */
 int _isdigit(int c)
 {
