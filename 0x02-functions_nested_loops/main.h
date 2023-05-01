@@ -1,11 +1,11 @@
-#include "main.h"
-/**
- * main - check the code.
- *
- * Return: Always 0.
+#ifndef main
+#define main
+
+/*
+ * File: main.h
+ * 
+ * Desc: Header file containing declarations for all functions
+ *       used in the 0x02-functions_nested_loops directory.
  */
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
+
+int _putchar(char c);
